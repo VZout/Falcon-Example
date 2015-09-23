@@ -27,6 +27,7 @@ void FalconGame::init() {
 	Game::init();
 	Game::camera = cam;
 	this->add(new Monkey(glm::vec3(0, 0, 0)));
+	this->add(new Monkey(glm::vec3(1, 1, 0)));
 	//this->add(new TestSprite(glm::vec2(0, 0)));
 }
 

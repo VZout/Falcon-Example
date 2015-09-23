@@ -37,7 +37,7 @@ void Monkey::init() {
 	add(new FF::Shader("res/basicTextureShader"));
 	add(new FF::Texture("res/test.png"));
 	//add(new FF::Mesh(vertices, sizeof(vertices)/sizeof(vertices[0]), indices, sizeof(indices)));
-	add(new FF::Mesh("res/monkey3.obj"));
+	add(new FF::Mesh("res/RandomObject.obj"));
 }
 
 void Monkey::render() {
